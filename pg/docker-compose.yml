@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:14
+    container_name: comentaPro_postgres
+    environment: 
+      POSTGRES_USER: ADMIN
+      POSTGRES_PASSWORD: ADMIN
+      POSTGRES_DB: 2024374_ComentaPro
+    ports:
+      - "5436:5432"
+    volumes:
+      - postgres_gestoropiniones_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_gestoropiniones_data:
