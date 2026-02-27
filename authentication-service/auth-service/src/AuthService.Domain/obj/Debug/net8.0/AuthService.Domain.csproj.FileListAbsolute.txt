@@ -1,0 +1,57 @@
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.deps.json
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.dll
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfo.cs
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.dll
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\refint\AuthService.Domain.dll
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\Informatica\Documents\IN6AM\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\ref\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.deps.json
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfo.cs
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\refint\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\KinalSports\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\ref\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.deps.json
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfo.cs
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\refint\AuthService.Domain.dll
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\ref\AuthService.Domain.dll
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.deps.json
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.dll
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfo.cs
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.sourcelink.json
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.dll
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\refint\AuthService.Domain.dll
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\Jose Gonzalez\Documents\Klgossip\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\ref\AuthService.Domain.dll
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.deps.json
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.dll
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\bin\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.AssemblyInfo.cs
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.sourcelink.json
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.dll
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\refint\AuthService.Domain.dll
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\AuthService.Domain.pdb
+C:\Users\Informatica\Documents\ComentaPro\authentication-service\auth-service\src\AuthService.Domain\obj\Debug\net8.0\ref\AuthService.Domain.dll

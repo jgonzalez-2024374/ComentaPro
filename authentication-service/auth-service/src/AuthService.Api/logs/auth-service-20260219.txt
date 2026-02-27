@@ -1,0 +1,95 @@
+[2026-02-19 22:32:50 INF] Verificando conexión a la base de datos... {"SourceContext":"Program"}
+[2026-02-19 22:32:51 INF] Base de datos lista. Ejecutando datos semilla... {"SourceContext":"Program"}
+[2026-02-19 22:32:51 INF] Inicialización de base de datos completada exitosamente {"SourceContext":"Program"}
+[2026-02-19 22:32:51 INF] API de AuthService está ejecutándose en http://localhost:5001. Endpoint de salud: http://localhost:5001/api/v1/health {"SourceContext":"Program"}
+[2026-02-19 22:33:20 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"93cf5545-3768-46a9-b07f-8caefd5df21f","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG74M26T78:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG74M26T78"}
+[2026-02-19 22:33:20 INF] HTTP POST /api/v1/auth/login responded 200 in 1784.9276 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG74M26T78:00000001","ConnectionId":"0HNJG74M26T78"}
+[2026-02-19 22:35:05 ERR] Failed executing DbCommand (753ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id; {"EventId":{"Id":20102,"Name":"Microsoft.EntityFrameworkCore.Database.Command.CommandError"},"SourceContext":"Microsoft.EntityFrameworkCore.Database.Command"}
+[2026-02-19 22:35:10 ERR] Failed executing DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE roles (
+    id character varying(16) NOT NULL,
+    name character varying(35) NOT NULL,
+    created_at timestamp with time zone NOT NULL,
+    updated_at timestamp with time zone NOT NULL,
+    CONSTRAINT pk_roles PRIMARY KEY (id)
+); {"EventId":{"Id":20102,"Name":"Microsoft.EntityFrameworkCore.Database.Command.CommandError"},"SourceContext":"Microsoft.EntityFrameworkCore.Database.Command"}
+[2026-02-19 22:42:23 INF] Verificando conexión a la base de datos... {"SourceContext":"Program"}
+[2026-02-19 22:42:25 INF] Base de datos lista. Ejecutando datos semilla... {"SourceContext":"Program"}
+[2026-02-19 22:42:25 INF] Inicialización de base de datos completada exitosamente {"SourceContext":"Program"}
+[2026-02-19 22:42:25 INF] API de AuthService está ejecutándose en http://localhost:5001. Endpoint de salud: http://localhost:5001/api/v1/health {"SourceContext":"Program"}
+[2026-02-19 22:42:35 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"064427ac-d007-4c07-85d8-1b04648713bd","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG79QLI3L8:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG79QLI3L8"}
+[2026-02-19 22:42:36 INF] HTTP POST /api/v1/auth/login responded 200 in 3680.9441 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG79QLI3L8:00000001","ConnectionId":"0HNJG79QLI3L8"}
+[2026-02-19 22:43:07 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"064427ac-d007-4c07-85d8-1b04648713bd","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG79QLI3L8:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG79QLI3L8"}
+[2026-02-19 22:43:07 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNJG79QLI3L8:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG79QLI3L8"}
+System.UnauthorizedAccessException: Credenciales inválidas
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 178
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 18
+   at lambda_method20(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-02-19 22:43:08 INF] HTTP POST /api/v1/auth/login responded 401 in 592.1570 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG79QLI3L8:00000002","ConnectionId":"0HNJG79QLI3L8"}
+[2026-02-19 22:43:51 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNJG79QLI3L8:00000003","RequestPath":"/api/v1/auth/register","ConnectionId":"0HNJG79QLI3L8"}
+System.InvalidOperationException: Rol por defecto 'USER_ROLE' no encontrado. Asegúrese de que la siembra se ejecute antes del registro.
+   at AuthService.Application.Services.AuthService.RegisterAsync(RegisterDto registerDto) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 84
+   at AuthService.Api.Controllers.AuthController.Register(RegisterDto registerDto) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 27
+   at lambda_method315(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-02-19 22:43:51 INF] HTTP POST /api/v1/auth/register responded 400 in 447.9893 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG79QLI3L8:00000003","ConnectionId":"0HNJG79QLI3L8"}
+[2026-02-19 22:57:02 INF] Verificando conexión a la base de datos... {"SourceContext":"Program"}
+[2026-02-19 22:57:05 INF] Base de datos lista. Ejecutando datos semilla... {"SourceContext":"Program"}
+[2026-02-19 22:57:06 INF] Inicialización de base de datos completada exitosamente {"SourceContext":"Program"}
+[2026-02-19 22:57:06 INF] API de AuthService está ejecutándose en http://localhost:5001. Endpoint de salud: http://localhost:5001/api/v1/health {"SourceContext":"Program"}
+[2026-02-19 22:57:29 WRN] Failed login attempt {"EventId":{"Id":1003,"Name":"LogFailedLoginAttempt"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"00957390-11aa-40a8-b302-cb321ae0b2b7","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG7I5Q35NI:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG7I5Q35NI"}
+[2026-02-19 22:57:29 ERR] An unhandled exception occurred {"SourceContext":"AuthService.Api.Middlewares.GlobalExceptionMiddleware","RequestId":"0HNJG7I5Q35NI:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG7I5Q35NI"}
+System.UnauthorizedAccessException: Credenciales inválidas
+   at AuthService.Application.Services.AuthService.LoginAsync(LoginDto loginDto) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Application\Services\AuthService.cs:line 178
+   at AuthService.Api.Controllers.AuthController.Login(LoginDto loginDto) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Api\Controllers\AuthController.cs:line 18
+   at lambda_method364(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at AuthService.Api.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\aleja\OneDrive\Documentos\Kinal 2026\Gestor de Opiniones\Sistema Restaurante\authentication-service\auth-service\src\AuthService.Api\Middlewares\GlobalExceptionMiddleware.cs:line 18
+[2026-02-19 22:57:29 INF] HTTP POST /api/v1/auth/login responded 401 in 1392.1563 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG7I5Q35NI:00000001","ConnectionId":"0HNJG7I5Q35NI"}
+[2026-02-19 22:57:43 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"00957390-11aa-40a8-b302-cb321ae0b2b7","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG7I5Q35NI:00000002","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG7I5Q35NI"}
+[2026-02-19 22:57:43 INF] HTTP POST /api/v1/auth/login responded 200 in 880.2913 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG7I5Q35NI:00000002","ConnectionId":"0HNJG7I5Q35NI"}
+[2026-02-19 23:12:23 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"00957390-11aa-40a8-b302-cb321ae0b2b7","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG7I5Q35NK:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG7I5Q35NK"}
+[2026-02-19 23:12:23 INF] HTTP POST /api/v1/auth/login responded 200 in 604.3370 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG7I5Q35NK:00000001","ConnectionId":"0HNJG7I5Q35NK"}
+[2026-02-19 23:40:16 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"00957390-11aa-40a8-b302-cb321ae0b2b7","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG7I5Q35NM:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG7I5Q35NM"}
+[2026-02-19 23:40:17 INF] HTTP POST /api/v1/auth/login responded 200 in 3018.7385 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG7I5Q35NM:00000001","ConnectionId":"0HNJG7I5Q35NM"}
+[2026-02-19 23:51:35 INF] User login succeeded {"EventId":{"Id":1002,"Name":"LogUserLoggedIn"},"SourceContext":"AuthService.Application.Services.AuthService","ActionId":"00957390-11aa-40a8-b302-cb321ae0b2b7","ActionName":"AuthService.Api.Controllers.AuthController.Login (AuthService.Api)","RequestId":"0HNJG7I5Q35NO:00000001","RequestPath":"/api/v1/auth/login","ConnectionId":"0HNJG7I5Q35NO"}
+[2026-02-19 23:51:35 INF] HTTP POST /api/v1/auth/login responded 200 in 1185.3961 ms {"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HNJG7I5Q35NO:00000001","ConnectionId":"0HNJG7I5Q35NO"}
