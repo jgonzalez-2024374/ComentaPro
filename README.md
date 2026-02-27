@@ -1,6 +1,5 @@
-# ComentaPro 📱
-
-Una app para hacer publicaciones y comentar en ellas. Básicamente es como una red social pero simple.
+# ComentaPro 
+Es una app para hacer publicaciones y comentar en ellas. Básicamente es como una red social pero simple.
 
 ¿Qué Hace?
 
